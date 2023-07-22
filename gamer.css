@@ -110,15 +110,15 @@ border-radius: 48px;
 .banner-title-2 {
     text-align: center;
     justify-content: center;
-       color: #534C64;
+       
 
 }
-.banner-title-2 , p {color: #0B0223;
+/*.banner-title-2 , p {color: #0B0223;
 
-}
-.banner-img-2, p{color: #0B0223;
+}*/
 
-}
+
+
 .online{color: #0B0223;
     text-align: right;
     font-family: Work Sans;
@@ -152,11 +152,30 @@ text-align: right;
 
     
 }
+  .a{
+    color:black;
+  }
+  
+
+  
 
 .banner-title-3{
     display: flex;
     justify-content: space-evenly;
 }
+.banner-img-3{}
+.tom{
+    padding: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 300px;
+    right: 200px;
+    
+    
+
+
+}
+
 .banner-text{
     text-align: center;
     justify-content: flex-start;
@@ -165,7 +184,6 @@ text-align: right;
 .banner-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    border-radius: 50px;
      background: #FFF;
      color: #0B0223;
      font-family: Work Sans;
@@ -173,10 +191,23 @@ text-align: right;
      font-weight: 600;
      
 }
-.banner-grid , img , h3{
-margin-inline: 100px;
-    gap: 10px;
+.banner-grid button{
+    display: flex;
+    border-radius: 50px;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    
+    
+
+
 }
+
+
 
 
 
